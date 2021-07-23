@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Flexhome </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        nav {
+            box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
+            position: fixed; 
+            top: 0; 
+            width: 100%;
+            }
+        
+
+
+        .topnav .search-container {
+            float: right;
+            }
+
+        .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+            }
+
+        .topnav .search-container button {
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: rgb(0, 58, 248);
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+            }
+
+        .topnav .search-container button:hover {
+        background: rgb(0, 58, 248);
+        }
+
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 40%;
+            }    
+
+        .footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            bottom: 0; /* Position the navbar at the top of the page */
+            }
+
+        .fa {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 10px 10px;
+            border-radius: 50%;
+            }
+
+        .fa:hover {
+                opacity: 0.7;
+            }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+            }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+            }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <a class="nav-link" href="index.html"> 
+            <img src="Img/logo.svg" width="140px" >
+        </a>            
+
+        <ul class="navbar-nav ml-auto" style="text-align: center;">
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link" href="About Us.html"> About Us </a>
+            </li>
+
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link" href="Gallery.html"> Gallery </a>
+            </li>
+        </ul>
+
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Submit</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- ----------------- Section Line ----------------- -->
+    <!-- Landing Page -->
+    <div class="Container">   
+        <div id="demo" class="carousel slide" data-ride="carousel" > 
+            <ul class="carousel-indicators" style="padding-bottom: 40px;">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Img/1.jpg" flex-wrap: wrap;>
+                    <div class="carousel-caption" style="padding-bottom: 60px;">
+                    <h3> "House Decor 1" </h3>
+                    </div>   
+                </div>
+
+                <div class="carousel-item">
+                <img src="Img/2.jpg" flex-wrap: wrap;>
+                    <div class="carousel-caption" style="padding-bottom: 60px;">
+                    <h3> "House Decor 2" </h3>
+                    </div>   
+                </div>
+                
+                <div class="carousel-item">
+                <img src="Img/3.jpg" flex-wrap: wrap;>
+                    <div class="carousel-caption" style="padding-bottom: 60px;">
+                        <h3> "House Decor 3" </h3>
+                    </div>   
+                </div>
+
+                </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon">
+                        </span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon">         </span>
+                    </a>
+                </div>
+            </div>  
+        </div> 
+    </div> 
+
+
+    <!-- ----------------- Section Line ----------------- -->
+    <div class="container">
+        <!-- Row 1-->
+        <div class="row">
+            <div class="col"> 
+                <h2 style="text-align: left; padding-top: 80px;"> WHY CHOOSE FLEXHOME ? </h2>
+                <p style="text-align: left; padding-bottom: 20px;"> Confidently bring comprehensive interior solutions </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+
+        <div class="row">
+            
+            <div class="col">
+                    <div class="col">
+                        <img src="Icon/1.svg" width="160px" height="160px" style="margin-bottom: 20px;">
+                    </div> 
+
+                    <div class="col">
+                        <h5> SELECTION OF ARCHITECTS, PRESTIGE SUPPLIER </h5>
+                    </div>
+            </div>
+
+            <div class="col">
+                    <div class="col">
+                        <img src="Icon/2.svg" width="160px" height="160px" style="margin-bottom: 20px;">
+                    </div>
+
+                    <div class="col">
+                        <h5> COLLECTION 200,000 EYES BY APARTMENT </h5>
+                    </div>
+            </div>
+
+            <div class="col">
+                    <div class="col">
+                        <img src="Icon/3.svg" width="160px" height="160px" style="margin-bottom: 20px;">
+                    </div> 
+
+                    <div class="col">
+                        <h5> FIND YOUR PERSONALITY DESIGN INSPIRATION </h5>
+                    </div>
+            </div>
+
+            <div class="col">
+                <div class="col">
+                    <img src="Icon/4.svg" width="160px" height="160px" style="margin-bottom: 20px;">
+                </div> 
+
+                <div class="col">
+                    <h5> GET TRANSPARENT PRICES FROM MULTIPLE UNITS </h5>
+                </div>
+        </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+        <!-- Row 1-->
+        <div class="row">
+            <div class="col"> 
+                <h2 style="text-align: left; padding-top: 120px;"> SOLUTION WE BRING TO CUSTOMERS </h2>
+                <p style="text-align: left; padding-bottom: 20px;"> Applying technology to bring advanced solutions to the interior field </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">          
+            <div class="col">
+                <div class="col">
+                    <img src="Icon/5.svg" width="100%" style="margin-bottom: 20px;">
+                </div> 
+            </div>
+
+            <div class="col">
+                <div class="Row">
+                    <h4> FlexDesign quick design software </h4>
+                    <p> Design speed 3 times faster, extract detailed quotes from suppliers </p>
+                </div>
+
+                <div class="Row" style="padding-top: 40px;">
+                    <h4> Consultation scheduling system </h4>
+                    <p> Book an appointment to meet with a consulting architect, quick response. </p>
+                </div>
+
+                <div class="Row" style="padding-top: 40px;">
+                    <h4> Manage, Tracking orders </h4>
+                    <p> Monitor the entire deployment process on the application </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
+        <div class="row" style="padding-top: 30px;">
+            <div class="col">
+                    <img src="Img/4.jpg" style="width:100%; border-radius: 8px;">
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- ----------------- Footer ----------------- -->
+    <div class="footer">
+        <h4 style="padding-top: 20px; padding-bottom: 20px;"> Flexhome Company, 2021 </h4>
+        <a href="https://www.facebook.com/VCCAVIETNAM" class="fa fa-facebook"></a>
+        <a href="https://www.google.com" class="fa fa-google"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+     
+    </div>
+</body>
+</html>
